@@ -1,0 +1,194 @@
+
+#menu8 {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  background-color: #303030;
+  width: 900px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 20px;
+  display: block;
+  line-height: 1;
+}
+#menu8 h1,
+#menu8 ul,
+#menu8 p,
+#menu8 img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#menu8 h1 {
+  font-weight: 400;
+}
+#menu8 ul {
+  list-style: none;
+}
+#menu8 a {
+  text-decoration: none;
+  color: #404040;
+}
+#menu8 .menu-label {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#menu8 .menu-top > li {
+  float: left;
+  position: relative;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+#menu8 .menu-top > li:hover {
+  background-color: #2f0;
+  transition: background-color 0.2s;
+}
+#menu8 .menu-top .menu-right {
+  float: right;
+}
+#menu8 .menu-button {
+  display: block;
+  line-height: 40px;
+  padding: 0 20px;
+  color: #e0e0e0;
+  transition: color 0.2s;
+}
+#menu8 li:hover .menu-button {
+  color: #404040;
+  transition: color 0.2s;
+}
+#menu8 .menu-drop {
+  padding-right: 15px;
+}
+#menu8 .menu-drop .menu-label {
+  padding-right: 20px;
+  background: url(images/menu8-drop1.png) no-repeat right;
+  transition: background 0.2s;
+}
+#menu8 li:hover .menu-drop .menu-label {
+  background: url(images/menu8-drop2.png) no-repeat right;
+  transition: background 0.2s;
+}
+#menu8 .menu-dropdown {
+  text-align: left;
+  background-color: #2f0;
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  left: -5000px;
+  opacity: 0;
+  z-index: 100;
+}
+#menu8 li:hover .menu-dropdown {
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+#menu8 .menu-right:hover .menu-dropdown {
+  left: auto;
+  right: 0;
+}
+#menu8 .menu-sub {
+  margin: 5px 0;
+}
+#menu8 .menu-sub li {
+  white-space: nowrap;
+  transition: background-color 0.1s;
+}
+#menu8 .menu-sub li:hover {
+  background: #303030 url(images/menu8-select.png) no-repeat 10px;
+  transition: background-color 0.2s;
+}
+#menu8 .menu-subbutton {
+  display: block;
+  padding: 7px 20px;
+  line-height: 1.3;
+  color: #404040;
+  transition: color 0.2s;
+}
+#menu8 .menu-sub li:hover .menu-subbutton {
+  color: #e0e0e0;
+  transition: color 0.2s;
+}
+#menu8 .menu-desc {
+  font-style: italic;
+  color: #505050;
+  transition: color 0.2s;
+}
+#menu8 .menu-sub li:hover .menu-desc {
+  color: #f0f0f0;
+  transition: color 0.2s;
+}
+#menu8 .menu-row {
+  vertical-align: text-top;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+#menu8 .menu-row .menu-sub {
+  margin: 0;
+}
+#menu8 h1 {
+  font-size: 2em;
+  color: #505050;
+}
+#menu8 p {
+  color: #404040;
+}
+#menu8 .emp {
+  font-weight: 700;
+}
+#menu8 .quote {
+  font-style: italic;
+}
+#menu8 .menu-dropdown3 {
+  padding-top: 5px;
+  white-space: nowrap;
+}
+#menu8 .menu-dropdown3 h1 {
+  margin: 0 0 5px 20px;
+}
+#menu8 .menu-dropdown3 .menu-row {
+  border-right: 1px dotted #707070;
+  margin: 5px 0;
+}
+#menu8 .menu-dropdown3 .menu-row:last-child {
+  border-right: 0;
+}
+#menu8 .menu-dropdown4 {
+  padding-top: 5px;
+  white-space: nowrap;
+}
+#menu8 .menu-dropdown4 h1 {
+  margin: 0 0 5px 20px;
+}
+#menu8 .menu-dropdown4 .menu-row div {
+  border-right: 1px dotted #707070;
+  margin: 5px 0 10px;
+}
+#menu8 .menu-dropdown4 .menu-row:last-child div {
+  border-right: 0;
+}
+#menu8 .menu-dropdown4 .menu-row div:last-child {
+  margin-bottom: 5px;
+}
+#menu8 .menu-dropdown6 img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#menu8 .menu-dropdown6 .menu-label {
+  vertical-align: middle;
+}
+#menu8 .menu-dropdown6 .menu-subbutton {
+  padding: 5px 20px;
+}
+#menu8 .menu-dropdown7 {
+  padding: 10px;
+  width: 210px;
+}
+#menu8 .menu-dropdown7 p {
+  margin-top: 7px;
+}
+#menu8 .menu-dropdown7 h1 {
+  color: #404040;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #505050;
+}
